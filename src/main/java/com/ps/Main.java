@@ -21,6 +21,28 @@ public class Main {
             System.out.println("Enter your command");
             mainMenuCommand = scanner.nextInt();
 
+            switch(mainMenuCommand){
+                case 1:
+                    //all vehicles()
+
+                    break;
+                case 2:
+                    //searchByMake()
+                    break;
+                case 3:
+                    //searchByPrice()
+                    break;
+                case 4:
+                    //SearchByColor()
+                    break;
+                case 5:
+                    //Add a vehicle()
+                    break;
+                case 0:
+                    System.out.println("You choose to quit");
+
+            }
+
         } while(mainMenuCommand !=0);
 
 
@@ -36,4 +58,7 @@ public class Main {
     vehicle[5] = new Vehicle(101126,"Jeep Wrangler","Yellow",30000,16000);
 
 };
+    public static void addVehicles(){
+
+    }
 }
